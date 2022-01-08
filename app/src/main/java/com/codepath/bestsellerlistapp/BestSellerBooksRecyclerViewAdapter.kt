@@ -43,11 +43,11 @@ class BestSellerBooksRecyclerViewAdapter(
             .centerInside()
             .into(holder.mImage)
 
-        holder.mView.setOnClickListener {
-            holder.mItem?.let { book ->
-                mListener?.onItemClick(book)
-            }
-        }
+//        holder.mView.setOnClickListener {
+//            holder.mItem?.let { book ->
+//                mListener?.onItemClick(book)
+//            }
+//        }
     }
 
     override fun getItemCount(): Int {
